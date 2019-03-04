@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+display: flex;
+justify-content: space-around;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
